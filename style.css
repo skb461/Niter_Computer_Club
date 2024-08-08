@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+}
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+section{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+video{
+    filter: grayscale(100%);
+    transition: 2s;
+}
+video:hover{
+    filter: grayscale(0%);
+}
+
+.silkscreen-bold {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.Orbitron{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.hore{
+    height: 150vh;
+}
+
+.hero_left{
+    height: 150vh;
+}
+
+.hero_left>.card{
+    height: 50vh;
+}
+
+.img_hero{
+    height: 150vh;
+    filter: grayscale(100%);
+}
+.img_hero:hover{
+    filter: grayscale(0%);
+}
+
+.gray_img{
+    filter: grayscale(100%);
+}
+.gray_img:hover{
+    filter: grayscale(0%);
+}
+
+.modarator_img{
+    filter: grayscale(100%);
+}
+.modarator_img:hover{
+    filter: grayscale(0%);
+}
+
+.after_hero{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
